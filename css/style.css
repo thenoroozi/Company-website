@@ -1,0 +1,16 @@
+#Navbar{
+   margin: 0 1.2rem;
+}
+.bg-lightGreen{
+   background-color: chartreuse;
+}
+.bg-lightGreen:hover{
+   background-color: #80ff00b6;
+}
+.bg-lightGreen:focus{
+   background-color: #80ff00b6;
+}
+.border-lightGreen{
+   border-bottom: 4px solid chartreuse;
+
+}

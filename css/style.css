@@ -26,6 +26,9 @@
 .textHover:hover{
    color: #ffffff;
 }
+.paragraph{
+text-indent: 1.5rem;
+}
 @media (max-width:992px) {
    #introduceJobImg{
       border-radius: 10px;

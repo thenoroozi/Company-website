@@ -20,14 +20,22 @@
 #introduceJobImg{
    border-radius: 150px 10px 10px 150px;
 }
+/* footer */
 .textHover{
   color: #ffffff85;
 }
 .textHover:hover{
    color: #ffffff;
 }
+/* about.html */
 .paragraph{
 text-indent: 1.5rem;
+}
+.photoCompany{
+   width: 100%;
+}
+.bgPhotoCompany{
+   background: linear-gradient(45deg,#007400,#80ff00);
 }
 @media (max-width:992px) {
    #introduceJobImg{
@@ -35,5 +43,10 @@ text-indent: 1.5rem;
    }
    .br-raduis{
       border-radius: 10px;
+   }
+}
+@media (min-width:992px) {
+   .photoCompany{
+      height: 500px;
    }
 }

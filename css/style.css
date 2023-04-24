@@ -1,61 +1,78 @@
-#Navbar{
+#Navbar {
    margin: 0 1.2rem;
 }
-.bg-lightGreen{
+
+.bg-lightGreen {
    background-color: chartreuse;
 }
-.bg-lightGreen:hover{
+
+.bg-lightGreen:hover {
    background-color: #80ff00b6;
 }
-.bg-lightGreen:focus{
+
+.bg-lightGreen:focus {
    background-color: #80ff00b6;
 }
-.border-lightGreen{
+
+.border-lightGreen {
    border-bottom: 4px solid chartreuse;
 
 }
-.boxShadow{
+
+.boxShadow {
    box-shadow: 1px 1px 8px #42424234;
 }
-#introduceJobImg{
+
+#introduceJobImg {
    border-radius: 150px 10px 10px 150px;
 }
+
 /* footer */
-.textHover{
-  color: #ffffff85;
+.textHover {
+   color: #ffffff85;
 }
-.textHover:hover{
+
+.textHover:hover {
    color: #ffffff;
 }
+
 /* about.html */
-.paragraph{
-text-indent: 1.5rem;
+.paragraph {
+   text-indent: 1.5rem;
+   text-align: justify;
 }
-.photoCompany{
+
+.photoCompany {
    width: 100%;
    height: 500px;
 }
-.bgPhotoCompany{
-   background: linear-gradient(45deg,#007400,#80ff00);
+
+.bgPhotoCompany {
+   background: linear-gradient(45deg, #007400, #80ff00);
 }
-.bg-caption-photoCompany{
-  background-color: rgba(0, 0, 0, 0.137);
-  backdrop-filter: blur(10px);
+
+.bg-caption-photoCompany {
+   background-color: rgba(0, 0, 0, 0.137);
+   backdrop-filter: blur(10px);
    color: #ffffff;
 }
-.essayImg{
+
+.essayImg {
    width: 100%;
 }
+
 @media (max-width:992px) {
-   #introduceJobImg{
+   #introduceJobImg {
       border-radius: 10px;
    }
-   .br-raduis{
+
+   .br-raduis {
       border-radius: 10px;
    }
 }
+
 @media (min-width:992px) {
-   .photoCompany{
+   .photoCompany {
       height: 500px;
    }
 }

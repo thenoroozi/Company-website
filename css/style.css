@@ -60,7 +60,23 @@
 .essayImg {
    width: 100%;
 }
-
+#contactBody{
+   background-image:url(../image/lobby.jpg) ;
+   background-size: cover;
+}
+#contactComment,#contactTitle,#contactAddress{
+   background-color: #0000005b;
+   backdrop-filter: blur(4px);
+   border-radius: 10px;
+   color: #ffffff;
+}
+#contactTitle{
+   padding: 15px 0;
+   font-weight:500;
+}
+#contactAddress,#contactComment{
+ padding: 12px 16px;
+}
 @media (max-width:992px) {
    #introduceJobImg {
       border-radius: 10px;

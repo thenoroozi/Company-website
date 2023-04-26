@@ -60,36 +60,44 @@
 .essayImg {
    width: 100%;
 }
-#contactBody{
-   background-image:url(../image/lobby.jpg) ;
+
+#contactBody {
+   background-image: url(../image/lobby.jpg);
    background-size: cover;
 }
-#contactComment,#contactTitle,#contactAddress{
+
+#contactComment,
+#contactTitle,
+#contactAddress {
    background-color: #0000005b;
    backdrop-filter: blur(4px);
    border-radius: 10px;
    color: #ffffff;
 }
-#contactTitle{
+
+#contactTitle {
    padding: 15px 0;
-   font-weight:500;
+   font-weight: 500;
 }
-#contactAddress,#contactComment{
- padding: 12px 16px;
+
+#contactAddress,
+#contactComment {
+   padding: 12px 16px;
 }
-.map-container{
-   overflow:hidden;
-   padding-bottom:56.25%;
-   position:relative;
-   height:0;
- }
- .map-container iframe{
-   left:0;
-   top:0;
-   height:100%;
-   width:100%;
-   position:absolute;
- }
+
+.map-container {
+   overflow: hidden;
+   padding-bottom: 56.25%;
+   position: relative;
+   border-radius: 12px;
+}
+
+.map-container iframe {
+   height: 100%;
+   width: 100%;
+   position: absolute;
+}
+
 @media (max-width:992px) {
    #introduceJobImg {
       border-radius: 10px;

@@ -54,7 +54,7 @@
    <!-- start body -->
    <div class="container my-3 my-sm-5 p-4 boxShadow rounded-3" id="contactBody">
       <div class="text-center mb-sm-3 display-6" id="contactTitle">راه‌های ارتباطی</div>
-      <div class="row mb-2 mx-1"  id="contactAddress">
+      <div class="row mb-2 mx-1" id="contactAddress">
          <div class="col-12 col-md-6">
             <h3>آدرس:</h3>
             <address class="row">
@@ -66,9 +66,9 @@
                </div>
                <div class="col-12 col-sm-6">
                   <p>
-                     <i class="fa fa-phone-square"></i><a href="tel:+989303432443" class="text-decoration-none">
+                     <i class="fa fa-phone-square"></i><a href="tel:+989303432443" class="text-decoration-none text-info">
                         +989303432443</a><br>
-                     <i class="fa fa-envelope"></i><a href="mailto:info@gmail.com" class="text-decoration-none">
+                     <i class="fa fa-envelope"></i><a href="mailto:info@gmail.com" class="text-decoration-none text-info">
                         hanocode@gmail.com</a>
                   </p>
                </div>
@@ -111,8 +111,49 @@
                      </div>
                   </div>
 
+                  <div class="col-12 col-sm-6">
+                     <div class="mb-3">
+                        <label for="telephone" class="form-label">شماره‌ تماس</label>
+                        <div class="input-group">
+                           <span class="input-group-text"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                           <input type="tel" id="telephone" class="form-control" placeholder="09131176673">
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6">
+                     <div class="mb-3">
+                        <label for="department" class="form-label">حیطه کاری</label>
+                        <div class="input-group">
+                           <span class="input-group-text"><i class="fa fa-user-tie" aria-hidden="true"></i></span>
+                           <select name="department" id="department" class="form-select" placeholder="09131176673">
+                              <option value="">انتخاب کنید...</option>
+                              <option value="frontend">توسعه‌دهنده فرانت اند</option>
+                              <option value="Backend">توسعه‌دهنده بک اند</option>
+                              <option value="Designer">طراح ui/ux</option>
+                              <option value="Android">توسعه‌دهنده اندروید</option>
+                              <option value="other">دیگر</option>
+                           </select>
+                        </div>
+                     </div>
+                  </div>
                </div>
+
+               <div class="mb-3">
+                  <label for="message" class="form-label">پیام خود را در قسمت زیر بنویسید</label>
+                <div class="input-group">
+                  <span class="input-group-text"><i class="fas fa-pencil-alt"></i></span>
+                  <textarea name="message" id="message" class="form-control" cols="30" rows="5" placeholder="یادداشت کنید..."></textarea>
+                </div>
+               </div>
+
+               <button type="submit" class="btn btn-primary">ارسال</button>
+               <button type="submit" class="btn btn-secondary">بازنگری</button>
             </form>
+         </div>
+
+         <div class="col-12 col-sm-6 mb-3">
+
          </div>
 
       </div>

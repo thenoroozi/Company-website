@@ -53,8 +53,9 @@
 
    <!-- start body -->
    <div class="container my-3 my-sm-5 p-4 boxShadow rounded-3" id="contactBody">
-      <div class="text-center mb-sm-3 display-6" id="contactTitle">راه‌های ارتباطی</div>
+      <div class="text-center mb-3 display-6" id="contactTitle">راه‌های ارتباطی</div>
       <div class="row mb-2 mx-1" id="contactAddress">
+         <!-- address -->
          <div class="col-12 col-md-6">
             <h3>آدرس:</h3>
             <address class="row">
@@ -66,15 +67,17 @@
                </div>
                <div class="col-12 col-sm-6">
                   <p>
-                     <i class="fa fa-phone-square"></i><a href="tel:+989303432443" class="text-decoration-none text-info">
+                     <i class="fa fa-phone-square"></i><a href="tel:+989303432443"
+                        class="text-decoration-none text-info">
                         +989303432443</a><br>
-                     <i class="fa fa-envelope"></i><a href="mailto:info@gmail.com" class="text-decoration-none text-info">
+                     <i class="fa fa-envelope"></i><a href="mailto:info@gmail.com"
+                        class="text-decoration-none text-info">
                         hanocode@gmail.com</a>
                   </p>
                </div>
             </address>
          </div>
-
+         <!-- time -->
          <div class="col-12 col-md-6">
             <h3>ساعت کاری</h3>
             <p>
@@ -85,8 +88,8 @@
       </div>
 
       <div class="row mx-1" id="contactComment">
-
-         <div class="col-12 col-sm-6 mb-3">
+         <!-- start comment -->
+         <div class="col-12 col-lg-6 mb-3">
             <h2>پیام خود را ارسال کنید</h2>
             <form>
                <div class="row">
@@ -141,20 +144,27 @@
 
                <div class="mb-3">
                   <label for="message" class="form-label">پیام خود را در قسمت زیر بنویسید</label>
-                <div class="input-group">
-                  <span class="input-group-text"><i class="fas fa-pencil-alt"></i></span>
-                  <textarea name="message" id="message" class="form-control" cols="30" rows="5" placeholder="یادداشت کنید..."></textarea>
-                </div>
+                  <div class="input-group">
+                     <span class="input-group-text"><i class="fas fa-pencil-alt"></i></span>
+                     <textarea name="message" id="message" class="form-control" cols="30" rows="5"
+                        placeholder="یادداشت کنید..."></textarea>
+                  </div>
                </div>
 
                <button type="submit" class="btn btn-primary">ارسال</button>
                <button type="submit" class="btn btn-secondary">بازنگری</button>
             </form>
          </div>
+         <!-- end comment -->
 
-         <div class="col-12 col-sm-6 mb-3">
-
+         <!--Google map-->
+         <div class="col-12 col-lg-6 mb-3">
+            <h2>موقعیت مکانی شرکت</h2>
+            <div class="map-container w-100 h-75">
+               <iframe src="https://maps.google.com/maps?q=isfahan&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+            </div>
          </div>
+         <!--Google Maps-->
 
       </div>
    </div>

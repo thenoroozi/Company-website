@@ -60,7 +60,7 @@
 .essayImg {
    width: 100%;
 }
-
+/* contact.html */
 #contactBody {
    background-image: url(../image/lobby.jpg);
    background-size: cover;
@@ -97,12 +97,27 @@
    width: 100%;
    position: absolute;
 }
-
+/* services.html */
+#servicesImg{
+   border-radius: 10px 150px 150px 10px;
+}
+#servicesImgRev{
+   border-radius: 150px 10px 10px 150px;
+}
+.btn-rate{
+   background-color: #303030;
+   border-radius: 5px;
+   color: #ffffff;
+   padding: 4px;
+   font-size: 12px;
+}
 @media (max-width:992px) {
    #introduceJobImg {
       border-radius: 10px;
    }
-
+   #servicesImg{
+      border-radius: 10px;
+   }
    .br-raduis {
       border-radius: 10px;
    }
